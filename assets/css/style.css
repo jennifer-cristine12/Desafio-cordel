@@ -31,7 +31,7 @@ header {
     background-color: var(--bg-header);
     width: 100%;
     max-width: 1024px;
-    min-width: 100%;
+    min-width: 300px;
     color: var(--header-color);
     display: flex;
     flex-direction: column;
@@ -44,12 +44,12 @@ header h1 {
     text-transform: capitalize;
     font-variant: small-caps;
     margin: 10px 10px 5px 10px;
-    font-size:45px;
+    font-size:3em;
 }
 
 header p {
     margin-bottom: 20px;
-    font-size:20px;
+    font-size:1.2em;
 
 }
 
@@ -94,7 +94,7 @@ footer {
     background-color: var(--bg-header);
     width: 100%;
     max-width: 1024px;
-    min-width: 100%;
+    min-width: 300px;
     color: var(--header-color);
     display: flex;
     align-items: center;
@@ -103,7 +103,7 @@ footer {
 }
 footer p {
     font-family: "Sriracha", Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight:normal;
   
 }
