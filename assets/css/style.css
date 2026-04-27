@@ -1,0 +1,98 @@
+/*configurações globais*/
+:root {
+    --bg-color: #fff;
+    --bg-header: #111;
+    --bg-img: #333;
+    --header-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*TODO: colocar as fontes Passion One e Sriracha no html*/
+}
+
+a {
+    text-decoration: none;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-weight: bold;
+}
+
+/*configurações locais*/
+/*cabeçalho*/
+header {
+    background-color: var(--bg-header);
+    width: 100%;
+    max-width: 1024px;
+    min-width: 100%;
+    color: var(--header-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    text-transform: capitalize;
+    font-variant: small-caps;
+    margin: 10px 10px 5px 10px;
+}
+
+header p {
+    margin-bottom: 20px;
+
+}
+
+header a,
+footer a {
+    color: var(--header-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*sessão*/
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+
+}
+
+section p {
+    padding-left: 10px;
+}
+
+section.yesImg {
+    background-color: #111;
+    color: var(--bg-color);
+
+}
+
+section.yesImg p {
+    background-color: rgba(56, 56, 56, 0.7);
+    width: 50%;
+
+
+}
+
+/*rodapé*/
+footer {
+    background-color: var(--bg-header);
+    width: 100%;
+    max-width: 1024px;
+    min-width: 100%;
+    color: var(--header-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
