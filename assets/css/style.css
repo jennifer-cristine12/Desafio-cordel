@@ -14,7 +14,7 @@
 
 html,
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:"Passion One","Sriracha", Arial, Helvetica, sans-serif;
     /*TODO: colocar as fontes Passion One e Sriracha no html*/
 }
 
@@ -37,16 +37,19 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Passion One", Arial, Helvetica, sans-serif;
 }
 
 header h1 {
     text-transform: capitalize;
     font-variant: small-caps;
     margin: 10px 10px 5px 10px;
+    font-size:45px;
 }
 
 header p {
     margin-bottom: 20px;
+    font-size:20px;
 
 }
 
@@ -70,6 +73,7 @@ section {
 
 section p {
     padding-left: 10px;
+    font-family: "Sriracha", Arial, Helvetica, sans-serif;
 }
 
 section.yesImg {
@@ -95,4 +99,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    height:30px;
+}
+footer p {
+    font-family: "Sriracha", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight:normal;
+  
 }
