@@ -31,7 +31,7 @@ header {
     background-color: var(--bg-header);
     width: 100%;
     max-width: 1024px;
-    min-width: 300px;
+    min-width: 100vw;
     color: var(--header-color);
     display: flex;
     flex-direction: column;
@@ -79,14 +79,27 @@ section p {
 section.yesImg {
     background-color: #111;
     color: var(--bg-color);
+    box-shadow: inset 2px 6px 10px rgba(17, 17, 17, 0.5);
 
 }
 
 section.yesImg p {
-    background-color: rgba(56, 56, 56, 0.7);
-    width: 50%;
+    background-color: rgba(56, 56, 56, 0.5);
+    width: 300px;
 
 
+}
+section#s1{
+    background-image: url("../imagens/background001.jpg");
+    background-size: cover;
+    background-position:right center;
+    background-attachment: fixed;
+}
+section#s2{
+    background-image: url("../imagens/background002.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 /*rodapé*/
@@ -94,7 +107,7 @@ footer {
     background-color: var(--bg-header);
     width: 100%;
     max-width: 1024px;
-    min-width: 300px;
+    min-width: 100vw;
     color: var(--header-color);
     display: flex;
     align-items: center;
